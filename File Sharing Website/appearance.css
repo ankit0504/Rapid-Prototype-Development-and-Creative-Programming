@@ -1,0 +1,88 @@
+h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    color: black;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-weight: 300;
+    color: #4D66A4; 
+    margin-bottom: 0px;
+}
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  color: #4D66A4;  
+}
+
+hr {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-color: #4D66A4;
+  border-width: .5px;
+  margin-right: 500px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color:black;
+}
+
+div {
+  padding-top: 20px;
+}
+
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  padding-left: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+form {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color:black;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.login {
+  text-align: center;
+  color: #4D66A4;
+  padding-bottom: 10px;
+}
+
+.page1 {
+  background-color: #4D66A4;
+  text-align: center;
+}
+
+.logindiv {
+  align-content: center;
+  background-color: white;
+  margin-top: 60px;
+  padding-bottom: 70px;
+  padding-top: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.share {
+  padding-top: 20px;
+}
+
+.dash {
+  padding-top: 5px;
+}

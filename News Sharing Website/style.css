@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: Bold;
+}
+
+.sub {
+    color: gray;
+    font-size: 14px;
+}
+
+.comment_username {
+    font-size: 14px;
+    font-weight: BOLD;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.top-bar {
+    background-color: #ff4136;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    margin-left: 0px;
+}
+
+form {
+    display: inline;
+}
+
+.stories {
+    padding-left: 18px;
+}
+
+
+h1.newsfeed {
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.new_post {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.my_posts {
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.edit {
+    color: black;
+    font-size: 15px;
+}
+.new_comment {
+    font-size: 15px;
+}
+
+.user_posts {
+    margin-left: 18px;
+}
+
+.login {
+    margin-left: 18px;;
+}
+
+h1.login {
+    color: #ff4136;
+    margin-bottom: 5px;
+}
+
+.search_profile {
+    float: right;
+    margin-top: 10px;
+    margin-right:28px;
+}
+
+a.sub {
+    color: grey;
+}
+
+.return {
+    color: black;
+}
+
+h1.login {
+    color: white;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+a.guest_link {
+    color: black;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calendar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel = "stylesheet" href = "calendar.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class = "sidebar">
+
+            <h1 class = "new_event">Add Event</h1>
+            <div class = "new_event" >
+
+
+                <input type="text" id="event_name" placeholder="Event Name" /> <br>
+                <input type="datetime-local" id="event_date" /> <br>
+                <input type="radio" name="color" value="primary" id="primary" /> <label for="primary">Blue</label> <br>
+                <input type="radio" name="color" value="success" id="success" /> <label for="success">Green</label> <br>
+                <input type="radio" name="color" value="danger" id="danger" /> <label for="danger">Red</label> <br>
+                <input type="radio" name="color" value="warning" id="warning" /> <label for="warning">Yellow</label> <br>
+                <input type="checkbox" id="priority_level" name="priority_level" value="priority_level" checked /> <label for="priority_level">High-priority?</label> <br>
+                <button id="add" class="btn btn-outline-secondary btn-sm">Add</button>
+                <button id="edit" class="btn btn-outline-secondary btn-sm">Edit</button> 
+                <button id="delete" class="btn btn-outline-secondary btn-sm">Delete</button>
+
+            </div>
+
+            <button id="logout" class="btn btn-outline-secondary btn-sm">Logout</button>
+            <span id = priority_span><input type="checkbox" id="high_priority" name="high_priority" value="high_priority" checked /> <label for="high_priority">High-priority only</label></span><br>
+
+        </div>
+
+        <div class = "login_page">
+
+            <h1 class = "login">Login</h1>
+            <div class = "login">
+                <input type="text" id="username" placeholder="Username" />
+                <input type="password" id="password" placeholder="Password" />
+                <button id="login" class="btn btn-outline-secondary btn-sm">Log In</button>
+            </div>
+            <h1 class = "register">Register</h1>
+            <div class = "register">
+                <input type="text" id="new_username" placeholder="Username" />
+                <input type="password" id="new_password" placeholder="Password" />
+                <button id="register" class="btn btn-outline-secondary btn-sm">Register</button>
+            </div>
+
+        </div>
+
+        <main>
+
+            <div class="toolbar">
+
+                <div class="current-month" id = "current-month"></div>
+                <input type="month" id="month-selector" />
+                <button type = "button" id = "prev_month_btn" class="btn btn-outline-secondary btn-sm"> &#8678; </button>
+                <button type = "button" id = "next_month_btn" class="btn btn-outline-secondary btn-sm"> &#8680; </button>
+
+            </div>
+
+
+            <div class="calendar">
+                <div class="calendar__header">
+                    <div>sun</div>
+                    <div>mon</div>
+                    <div>tue</div>
+                    <div>wed</div>
+                    <div>thur</div>
+                    <div>fri</div>
+                    <div>sat</div>
+                </div>
+                    <div class="calendar__week">
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                </div>
+                    <div class="calendar__week">
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                </div>
+                    <div class="calendar__week">
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                    <div class="calendar__day pre-scrollable"> </div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day pre-scrollable"></div>
+                    <div class="calendar__day pre-scrollable"></div>
+                    <div class="calendar__day pre-scrollable"></div>
+                    <div class="calendar__day pre-scrollable"></div>
+                    <div class="calendar__day pre-scrollable"></div>
+                    <div class="calendar__day pre-scrollable"></div>
+                    <div class="calendar__day pre-scrollable"></div>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+    <script>
+        let checkbox1 = document.getElementById('high_priority');
+        let checkbox2 = document.getElementById('priority_level');
+        checkbox1.checked = false;
+        checkbox2.checked = false;
+    </script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="event.js"></script>
+    <script src="calendar.js"></script>
+    <script src="login_register_logout.js"></script>
+</body>
+</html>

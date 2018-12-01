@@ -1,0 +1,58 @@
+.login {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.room {
+    border: 1px solid lightgrey;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.room-name {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.message_user {
+    color:  #007bff;
+    font-weight: 400;
+}
+
+#chatlog {
+    line-height: 12px;
+    margin-bottom: 5%;
+}
+
+.italicface {
+    font-style: italic;
+}
+
+.boldface {
+    font-weight: bold;
+}
+
+.private_message_user {
+    color:  red;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 30px;
+}
